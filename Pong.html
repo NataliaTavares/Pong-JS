@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <audio src="Pong - Sons/raquetada.mp3" loop></audio>
+
+  </head>
+  <body>
+    <audio id="trilha" src="trilha.mp3" autoplay loop></audio>
+    <audio id="raquetada" src="raquetada.mp3"></audio>
+    <audio id="ponto" src="ponto.mp3"></audio>
+    <div>
+      <button onclick="document.getElementById('trilha').play()">Reproduzir o áudio</button>
+      <button onclick="document.getElementById('trilha').pause()">Pausar o áudio</button>
+      </div>
+    <script src="sketch.js"></script>
+    
+  </body>
+</html>
